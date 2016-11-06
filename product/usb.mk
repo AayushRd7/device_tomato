@@ -14,3 +14,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ums=F000 \
     ro.usb.id.ums_adb=9015 \
     ro.usb.vid=05c6
+
+#USB_DEBUGGING ON BOOT
+persist.sys.usb.config=mtp,adb
+ ro.adb.secure=0
+ ro.secure=0
+ ro.debuggable=1
+ 
